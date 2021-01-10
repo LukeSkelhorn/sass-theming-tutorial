@@ -1,0 +1,303 @@
+body {
+  background: #000000;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #000000;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  margin: 0;
+  padding: 1rem 0;
+  line-height: 1.2;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.light-theme h1, .light-theme h2, .light-theme h3, .light-theme h4, .light-theme h5, .light-theme h6, .light-theme p {
+  color: #000000;
+}
+.light-theme div {
+  color: #000000;
+}
+.light-theme .container {
+  background: #f2f2f2;
+}
+.light-theme .github-corner {
+  color: #f2f2f2;
+}
+.light-theme footer {
+  color: #000000;
+}
+.light-theme footer a {
+  color: #2089af;
+}
+.light-theme .card {
+  background: #FFFFFF;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.light-theme .card h3 {
+  font-size: 1.5rem;
+}
+.light-theme .card .card-header {
+  padding: 0 1rem;
+  text-align: center;
+  background: linear-gradient(141deg, #1fc8db 51%, #2cb5e8 75%);
+}
+.light-theme .card .card-content {
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.light-theme .card .card-footer {
+  border-top: 1px solid #000000;
+  padding: 1rem;
+  text-align: center;
+}
+.light-theme .card .card-footer .tutorial-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font-size: 5rem;
+}
+.light-theme .card .card-footer .tutorial-links i {
+  color: #000000;
+}
+.light-theme .card .card-footer .socials {
+  border-top: 1px solid #000000;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.light-theme .card .card-footer .socials i {
+  color: #000000;
+}
+.light-theme .btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2cb5e8;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+  padding: 1.5rem;
+  color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.light-theme .btn .icons {
+  font-size: 5em;
+}
+
+.dark-theme h1, .dark-theme h2, .dark-theme h3, .dark-theme h4, .dark-theme h5, .dark-theme h6, .dark-theme p {
+  color: #FFFFFF;
+}
+.dark-theme div {
+  color: #FFFFFF;
+}
+.dark-theme .container {
+  background: #050505;
+}
+.dark-theme .github-corner {
+  color: #050505;
+}
+.dark-theme footer {
+  color: #FFFFFF;
+}
+.dark-theme footer a {
+  color: #2089af;
+}
+.dark-theme .card {
+  background: #121212;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+.dark-theme .card h3 {
+  font-size: 1.5rem;
+}
+.dark-theme .card .card-header {
+  padding: 0 1rem;
+  text-align: center;
+  background: linear-gradient(141deg, #1fc8db 51%, #2cb5e8 75%);
+}
+.dark-theme .card .card-content {
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dark-theme .card .card-footer {
+  border-top: 1px solid #FFFFFF;
+  padding: 1rem;
+  text-align: center;
+}
+.dark-theme .card .card-footer .tutorial-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font-size: 5rem;
+}
+.dark-theme .card .card-footer .tutorial-links i {
+  color: #FFFFFF;
+}
+.dark-theme .card .card-footer .socials {
+  border-top: 1px solid #FFFFFF;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.dark-theme .card .card-footer .socials i {
+  color: #FFFFFF;
+}
+.dark-theme .btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1fc8db;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+  padding: 1.5rem;
+  color: #000000;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+.dark-theme .btn .icons {
+  font-size: 5em;
+}
+
+.random-theme h1, .random-theme h2, .random-theme h3, .random-theme h4, .random-theme h5, .random-theme h6, .random-theme p {
+  color: #28e70f;
+}
+.random-theme div {
+  color: #28e70f;
+}
+.random-theme .container {
+  background: #b21fbe;
+}
+.random-theme .github-corner {
+  color: #b21fbe;
+}
+.random-theme footer {
+  color: #51ff00;
+}
+.random-theme footer a {
+  color: #84af20;
+}
+.random-theme .card {
+  background: #c623d4;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 183, 255, 0.2);
+}
+.random-theme .card h3 {
+  font-size: 1.5rem;
+}
+.random-theme .card .card-header {
+  padding: 0 1rem;
+  text-align: center;
+  background: linear-gradient(141deg, #1fc8db 51%, #2cb5e8 75%);
+}
+.random-theme .card .card-content {
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.random-theme .card .card-footer {
+  border-top: 1px solid #28e70f;
+  padding: 1rem;
+  text-align: center;
+}
+.random-theme .card .card-footer .tutorial-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font-size: 5rem;
+}
+.random-theme .card .card-footer .tutorial-links i {
+  color: #28e70f;
+}
+.random-theme .card .card-footer .socials {
+  border-top: 1px solid #28e70f;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.random-theme .card .card-footer .socials i {
+  color: #28e70f;
+}
+.random-theme .btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #cfdb1f;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+  padding: 1.5rem;
+  color: #3ca513;
+  box-shadow: 0 4px 8px 0 rgba(0, 183, 255, 0.2);
+}
+.random-theme .btn .icons {
+  font-size: 5em;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+// Fonts
+$sansSerif  : 'Open Sans';
+
+// Font Sizing
+$baseFontSize      : 16px;
+$baseLineHeight    : 1.5;
+$headingLineHeight : 1.2;
+
+html {
+  font-family: $sansSerif, sans-serif;
+  font-weight: normal;
+  color: #000000;
+  line-height: $baseLineHeight;
+  font-size: 14px; 
+}
+
+// Header Styles
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  margin: 0;
+  padding: $pad 0;
+  line-height: $headingLineHeight;
+
+  a {
+    font-weight: inherit;
+  }
+}
+p {
+  margin: 0;
+}
+
+// Text Styles
+em { font-style: italic; }
+strong { font-weight: bold; }
+.uppercase { text-transform: uppercase; }  

@@ -1,0 +1,49 @@
+.light-theme {
+  $primary: #2cb5e8;
+  $primaryVariant: #2089af;
+  $secondary: #6200EE;
+  $secondaryVariant: #4500a7;
+  $background: #FFFFFF;
+  $surface: #FFFFFF;
+  $error: #B00020;
+  $onPrimary: #FFFFFF;
+  $onSecondary: #000000;
+  $onBackground: #000000;
+  $onSurface: #000000;
+  $onError: #FFFFFF;
+  $boxShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  @import 'theme-imports';
+}
+
+.dark-theme {
+  $primary: #1fc8db;
+  $primaryVariant: #2089af;
+  $secondary: #6200EE;
+  $secondaryVariant: #6200EE;
+  $background: #121212;
+  $surface: #121212;
+  $error: #CF6679;
+  $onPrimary: #000000;
+  $onSecondary: #000000;
+  $onBackground: #FFFFFF;
+  $onSurface: #FFFFFF;
+  $onError: #000000;
+  $boxShadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  @import 'theme-imports';
+}
+.random-theme {
+  $primary: #cfdb1f;
+  $primaryVariant: #84af20;
+  $secondary: #eeae00;
+  $secondaryVariant: #eea300;
+  $background: #c623d4;
+  $surface: #c623d4;
+  $error: #ff00c8;
+  $onPrimary: #3ca513;
+  $onSecondary: #0f968f;
+  $onBackground: #28e70f;
+  $onSurface: #51ff00;
+  $onError: #000000;
+  $boxShadow: 0 4px 8px 0 rgba(0, 183, 255, 0.2);
+  @import 'theme-imports';
+}

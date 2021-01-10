@@ -1,0 +1,15 @@
+.btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $primary;
+  border-radius: .5rem;
+  margin: 0 0.5rem;
+  padding: 1.5rem;
+  color: $onPrimary;
+  box-shadow: $boxShadow;
+  .icons {
+    font-size: 5em;
+  }
+}

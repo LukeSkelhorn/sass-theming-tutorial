@@ -1,0 +1,14 @@
+.container {
+  background: darken($surface, 5%);
+}
+
+.github-corner {
+  color: darken($surface, 5%);
+}
+
+footer {
+  color: $onSurface;
+  a {
+    color: $primaryVariant;
+  }
+}

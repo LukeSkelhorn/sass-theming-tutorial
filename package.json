@@ -1,0 +1,14 @@
+{
+  "name": "sass-theming-tutorial",
+  "version": "0.0.1",
+  "description": "Tutorial about a sass theming i've been using",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass", "sass theming",  "sass-themes"
+  ],
+  "author": "Luke Skelhorn",
+  "license": "ISC"
+}
